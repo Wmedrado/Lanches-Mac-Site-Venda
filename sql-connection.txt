@@ -1,0 +1,4 @@
+wsqlsite
+Wfm203@C
+
+ "Server=tcp:site-database.database.windows.net,1433;Initial Catalog=sql-site-demo;Persist Security Info=False;User ID=wsqlsite;Password={Wfm203@C};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
