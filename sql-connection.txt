@@ -1,6 +1,0 @@
-site-vendas-prd
-p322.@Dfq
-
-Data Source=site-vendas-prd.database.windows.net;Initial Catalog=Site-database-PRD;User ID=site-vendas-prd;Password=p322.@Dfq;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
-
-"DefaultConnection": "Server=tcp:site-vendas-prd.database.windows.net,1433;Initial Catalog=Site-database-PRD;Persist Security Info=False;User ID=site-vendas-prd;Password=p322.@Dfq;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
