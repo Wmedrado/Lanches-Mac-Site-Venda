@@ -4,7 +4,7 @@
 
 namespace LanchesMac.Migrations
 {
-    public partial class MigracaoInicial : Migration
+    public partial class PopularCategorias : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -35,7 +35,7 @@ namespace LanchesMac.Migrations
                     ImagemUrl = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     ImagemThumbnailUrl = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     IsLanchePreferido = table.Column<bool>(type: "bit", nullable: false),
-                    EmDestaque = table.Column<bool>(type: "bit", nullable: false),
+                    EmEstoque = table.Column<bool>(type: "bit", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
