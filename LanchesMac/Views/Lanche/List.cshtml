@@ -7,9 +7,11 @@
 @foreach (var lanche in Model)
 {
     <div>
-        <h4>@lanche.Nome</h4>
-        <h1>teste</h1>
-        <p><img src="@lanche.ImagemThumbnailUrl"></p>
-        <h3>Preço :R @lanche.Preco.ToString("c")</h3>
+        <h4>@lanche.Nome</h4>        
+        @{
+            var fileName = lanche.ImagemUrl.Substring(lanche.ImagemUrl.LastIndexOf('/') + 1);
+        }
+        <p><img src="~/images/@fileName" width="600px" height="600px" /></p>
+        <h3>Preço: @lanche.Preco.ToString("c")</h3>
     </div>
 }
