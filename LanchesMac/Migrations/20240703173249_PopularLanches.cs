@@ -16,7 +16,7 @@ namespace LanchesMac.Migrations
 
             migrationBuilder.Sql("INSERT INTO Lanches(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsLanchePreferido,Nome,Preco) VALUES(1,'Pão, hambúrger, ovo, queijo e presunto','Pão de hambúrger com ovo frito, queijo derretido e presunto defumado',1, 'images/x-egg1.jpg', 'images/x-egg2.jpg', 1 , 'X-Egg', 11.00)");
 
-            migrationBuilder.Sql("INSERT INTO Lanches(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsLanchePreferido,Nome,Preco) VALUES(1,'Pão, frango grelhado, queijo, alface e tomate','Pão integral com filé de frango grelhado, queijo, alface e tomate frescos',1, 'images/lanche-natural2.jpg', 'images/lanche-natural1.jpg', 0 , 'Chicken Burger', 12.00)");
+            migrationBuilder.Sql("INSERT INTO Lanches(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsLanchePreferido,Nome,Preco) VALUES(1,'Pão, frango grelhado, queijo, alface e tomate','Pão integral com filé de frango grelhado, queijo, alface e tomate frescos',1, 'images/chiken-burger1.jpg', 'images/chiken-burger2.jpg', 0 , 'Chicken Burger', 12.00)");
 
             migrationBuilder.Sql("INSERT INTO Lanches(CategoriaId,DescricaoCurta,DescricaoDetalhada,EmEstoque,ImagemThumbnailUrl,ImagemUrl,IsLanchePreferido,Nome,Preco) VALUES(2,'Pão, carne de soja, queijo, alface, tomate e molho especial','Pão integral com hambúrger de soja, queijo, alface, tomate e molho especial vegano',1, 'images/veggie-burger1.jpg', 'images/veggie-burger2.jpg', 0 , 'Veggie Burger', 13.00)");
 
